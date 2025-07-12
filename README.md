@@ -1,6 +1,7 @@
-# Awesome Cloudflare
+# Awesome Cloudflare [![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)
 
-> A curated list of **awesome resources, tools, frameworks, and articles** for the Cloudflare Developer Platform.
+![Cloudflare logo](https://github.com/user-attachments/assets/e5b22d60-9f7a-4526-b827-b588e264f89d)
+> A curated list of **awesome resources, tools, frameworks, and articles** for the [Cloudflare Developer Platform](https://www.cloudflare.com/en-gb/developer-platform/products/).
 > Covers Workers, KV, R2, D1, Pages, Durable Objects, AI, and more.
 
 ## Contents
