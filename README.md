@@ -46,6 +46,7 @@
 
 ### Web Frameworks
 - ⭐ [Hono](https://hono.dev/) - Ultra-fast web framework for Cloudflare Workers and other runtimes, using a high-performance Trie router.
+- ⭐ [RedwoodSDK](https://github.com/redwoodjs/sdk) - The React Framework for Cloudflare.
 - ⭐ [Workers GraphQL Server](https://github.com/cloudflare/workers-graphql-server) - Apollo GraphQL server optimized for Workers with KV caching and TypeScript support.
 - ⭐ [itty-router](https://github.com/kwhitley/itty-router) - Lightweight, zero-dependency router optimized for Cloudflare Workers.
 - ⭐ [PartyKit](https://github.com/partykit/partykit) - Framework for real-time apps and multiplayer experiences on Workers using Durable Objects.
