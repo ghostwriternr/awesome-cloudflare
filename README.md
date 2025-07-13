@@ -31,14 +31,14 @@
 ## Core Platform & SDKs
 
 ### Official SDKs
-- [cloudflare-go](https://github.com/cloudflare/cloudflare-go) - Official Go library for the Cloudflare API with typed request/response objects and middleware support.
-- [cloudflare-python](https://github.com/cloudflare/cloudflare-python) - Official Python SDK with sync/async support, Pydantic models, and comprehensive type safety.
+- ⭐ [cloudflare-go](https://github.com/cloudflare/cloudflare-go) - Official Go library for the Cloudflare API with typed request/response objects and middleware support.
 - [cloudflare-typescript](https://github.com/cloudflare/cloudflare-typescript) - Official TypeScript library providing type-safe access to Cloudflare's REST API.
+- [cloudflare-python](https://github.com/cloudflare/cloudflare-python) - Official Python SDK with sync/async support, Pydantic models, and comprehensive type safety.
 
 ### Runtime & Core Tools
-- [Workerd Runtime](https://github.com/cloudflare/workerd) - Cloudflare's open-source runtime for Workers, enabling Workers-compatible environments outside Cloudflare.
-- [Miniflare](https://developers.cloudflare.com/workers/wrangler/local-development/#miniflare) - Fully local Cloudflare Workers simulator supporting D1, R2, KV, Durable Objects, and more.
+- ⭐ [Workerd Runtime](https://github.com/cloudflare/workerd) - Cloudflare's open-source runtime for Workers, enabling Workers-compatible environments outside Cloudflare.
 - [Wrangler CLI](https://developers.cloudflare.com/workers/wrangler/) - The official CLI for building, previewing, and deploying Cloudflare Workers.
+- [Miniflare](https://developers.cloudflare.com/workers/wrangler/local-development/#miniflare) - Fully local Cloudflare Workers simulator supporting D1, R2, KV, Durable Objects, and more.
 
 ---
 
@@ -46,25 +46,30 @@
 
 ### Web Frameworks
 - [Hono](https://hono.dev/) - Ultra-fast web framework for Cloudflare Workers and other runtimes, using a high-performance Trie router.
+- ⭐ [Workers GraphQL Server](https://github.com/cloudflare/workers-graphql-server) - Apollo GraphQL server optimized for Workers with KV caching and TypeScript support.
 - [itty-router](https://github.com/kwhitley/itty-router) - Lightweight, zero-dependency router optimized for Cloudflare Workers.
-- [Workers GraphQL Server](https://github.com/cloudflare/workers-graphql-server) - Apollo GraphQL server optimized for Workers with KV caching and TypeScript support.
 - [PartyKit](https://github.com/partykit/partykit) - Framework for real-time apps and multiplayer experiences on Workers using Durable Objects.
 
 ### Language Support
-- [Workers RS (Rust)](https://github.com/cloudflare/workers-rs) - Write Cloudflare Workers in pure Rust compiled to WebAssembly for edge deployment.
-- [Workers Py (Python)](https://github.com/cloudflare/workers-py) - Experimental project enabling Python support for Workers via Pyodide.
+- ⭐ [Workers RS (Rust)](https://github.com/cloudflare/workers-rs) - Write Cloudflare Workers in pure Rust compiled to WebAssembly for edge deployment.
 - [Boring](https://github.com/cloudflare/boring) - BoringSSL bindings for Rust with TLS adapters for tokio and hyper.
+- [Serverless Cloudflare Workers](https://github.com/cloudflare/serverless-cloudflare-workers) - Serverless Framework plugin for Cloudflare Workers with webpack bundling, KV storage, and WASM support.
+- 🚀 [Workers Py (Python)](https://github.com/cloudflare/workers-py) - Experimental project enabling Python support for Workers via Pyodide.
 
 ### Utilities & Processing
-- [LOL HTML](https://github.com/cloudflare/lol-html) - Low-latency streaming HTML rewriter in Rust with CSS selector API, powering Workers' HTMLRewriter.
+- ⭐ [LOL HTML](https://github.com/cloudflare/lol-html) - Low-latency streaming HTML rewriter in Rust with CSS selector API, powering Workers' HTMLRewriter.
+- ⭐ [Workers OAuth Provider](https://github.com/cloudflare/workers-oauth-provider) - OAuth 2.1 provider for Workers with PKCE support and end-to-end encryption.
+- ⭐ [Chanfana](https://github.com/cloudflare/chanfana) - Cloudflare's tool for generating OpenAPI schemas and validation in Workers apps.
+- ⭐ [Trie-hard](https://github.com/cloudflare/trie-hard) - Novel Trie data structure optimized for high-performance header processing in production.
+- [stpyv8](https://github.com/cloudflare/stpyv8) - Python 3 and JavaScript interoperability using Google's V8 engine, enabling cross-language development.
 - [HTML Rewriter WASM](https://github.com/cloudflare/html-rewriter-wasm) - WebAssembly implementation of HTMLRewriter for parsing and transforming HTML.
-- [Chanfana](https://github.com/cloudflare/chanfana) - Cloudflare's tool for generating OpenAPI schemas and validation in Workers apps.
-- [Workers OAuth Provider](https://github.com/cloudflare/workers-oauth-provider) - OAuth 2.1 provider for Workers with PKCE support and end-to-end encryption.
+- [Stream React](https://github.com/cloudflare/stream-react) - Official React component for Cloudflare Stream video player integration.
 
 ### Lua Libraries
 - [Lua Resty JSON](https://github.com/cloudflare/lua-resty-json) - High-performance JSON parser with 30-50% faster performance than cjson.
 - [Lua Cap'n Proto](https://github.com/cloudflare/lua-capnproto) - Pure Lua implementation of Cap'n Proto data interchange format.
 - [Lua Aho-Corasick](https://github.com/cloudflare/lua-aho-corasick) - Efficient multi-pattern string matching algorithm implementation.
+- [Raven Lua](https://github.com/cloudflare/raven-lua) - Small Lua interface to Sentry for error tracking and reporting.
 
 ---
 
@@ -72,13 +77,16 @@
 
 ### CLI & Development
 - [Create Cloudflare (C3)](https://developers.cloudflare.com/workers/wrangler/commands/#create-cloudflare-app) - Scaffolding CLI (`npm create cloudflare@latest`) for bootstrapping new Cloudflare apps with popular frameworks and bindings.
-- [Wrangler GitHub Action](https://github.com/cloudflare/wrangler-action) - Official GitHub Action to deploy Workers automatically from your CI pipeline.
+- ⭐ [Wrangler GitHub Action](https://github.com/cloudflare/wrangler-action) - Official GitHub Action to deploy Workers automatically from your CI pipeline.
 - [Puppeteer](https://github.com/cloudflare/puppeteer) - Fork of Puppeteer Core optimized for Cloudflare Browser Workers with minimal size.
+- [Sandbox SDK](https://github.com/cloudflare/sandbox-sdk) - Library for spinning up sandboxed environments in Cloudflare Workers, allowing command execution and file management.
 - [WorkersKV GUI](https://github.com/cloudflare/workerskv.gui) - Cross-platform desktop GUI for exploring Workers KV Namespace data.
+- [Semver Bash](https://github.com/cloudflare/semver_bash) - Bash parser for Semantic Versioning that helps manage project versions in scripts and Makefiles.
+- [WebCM](https://github.com/cloudflare/webcm) - Components Manager for the Web - proxy server for loading and managing web components with server-side execution.
 
 ### Infrastructure as Code
-- [Terraform Provider Cloudflare](https://github.com/cloudflare/terraform-provider-cloudflare) - Official Terraform provider for managing Cloudflare resources as Infrastructure as Code.
-- [CF Terraforming](https://github.com/cloudflare/cf-terraforming) - CLI to convert existing Cloudflare resources into Terraform configurations.
+- ⭐ [CF Terraforming](https://github.com/cloudflare/cf-terraforming) - CLI to convert existing Cloudflare resources into Terraform configurations.
+- ⭐ [Terraform Provider Cloudflare](https://github.com/cloudflare/terraform-provider-cloudflare) - Official Terraform provider for managing Cloudflare resources as Infrastructure as Code.
 
 ### API & Documentation
 - [API Schemas](https://github.com/cloudflare/api-schemas) - OpenAPI schemas for the Cloudflare API for building integrations.
@@ -89,16 +97,27 @@
 ## Templates & Examples
 
 ### Starter Templates
-- [Workers Templates](https://github.com/cloudflare/templates) - Starter templates for building full-stack serverless applications with multiple framework support.
+- ⭐ [Workers Templates](https://github.com/cloudflare/templates) - Starter templates for building full-stack serverless applications with multiple framework support.
 - [Rust WASM Worker Template](https://github.com/cloudflare/rustwasm-worker-template) - Template for building Workers in Rust compiled to WebAssembly.
+- [Python Worker Hello World](https://github.com/cloudflare/python-worker-hello-world) - Python hello world for Cloudflare Workers using Transcrypt for JavaScript translation.
+- [Worker Template Router](https://github.com/cloudflare/worker-template-router) - Template demonstrating itty-router for adding routing to Cloudflare Workers.
 - [Worker Speedtest Template](https://github.com/cloudflare/worker-speedtest-template) - Internet speed test implementation with Performance Timing API.
+- [Worker Template](https://github.com/cloudflare/worker-template) - Basic starter template for Cloudflare Workers with a "Hello World" example.
+- [Workers AWS Template](https://github.com/cloudflare/workers-aws-template) - Template for accessing AWS services like DynamoDB and SQS from Workers.
+- [WebSocket Template](https://github.com/cloudflare/websocket-template) - Template for implementing WebSocket connections using the WebSocketPair API.
+- [Worker Template PostgreSQL](https://github.com/cloudflare/worker-template-postgres) - Reference demo for connecting Workers to PostgreSQL through Cloudflare Tunnel.
+- [Worker Sites Template](https://github.com/cloudflare/worker-sites-template) - Template for deploying static sites using Cloudflare Workers Sites.
+- [Workers Airtable Form](https://github.com/cloudflare/workers-airtable-form) - Example of handling form data with Workers serverless functions and sending to Airtable.
+- [Worker Emscripten Template](https://github.com/cloudflare/worker-emscripten-template) - Template for integrating C libraries via WebAssembly using Emscripten.
+- [Worker Template MySQL](https://github.com/cloudflare/worker-template-mysql) - Reference implementation for connecting Workers to MySQL databases.
 
 ### Example Applications
-- [Workers Chat Demo](https://github.com/cloudflare/workers-chat-demo) - Real-time chat app demonstrating Durable Objects for stateful serverless applications.
-- [Production SaaS](https://github.com/cloudflare/production-saas) - Example SaaS application showcasing best practices for building on Cloudflare's stack.
-- [Orange](https://github.com/cloudflare/orange) - Example app demonstrating Cloudflare Realtime (WebRTC) infrastructure for video/audio calls.
-- [D1 Northwind](https://github.com/cloudflare/d1-northwind) - Full-stack demo app showcasing D1 database with Workers, built with React and TypeScript.
+- ⭐ [Orange](https://github.com/cloudflare/orange) - Example app demonstrating Cloudflare Realtime (WebRTC) infrastructure for video/audio calls.
+- ⭐ [Production SaaS](https://github.com/cloudflare/production-saas) - Example SaaS application showcasing best practices for building on Cloudflare's stack.
+- ⭐ [Workers Chat Demo](https://github.com/cloudflare/workers-chat-demo) - Real-time chat app demonstrating Durable Objects for stateful serverless applications.
+- 🚀 [D1 Northwind](https://github.com/cloudflare/d1-northwind) - Full-stack demo app showcasing D1 database with Workers, built with React and TypeScript.
 - [Python Workers Examples](https://github.com/cloudflare/python-workers-examples) - Collection of Python Workers examples including FastAPI and LangChain integration.
+- [Workers for Platforms Example](https://github.com/cloudflare/workers-for-platforms-example) - Reference implementation for multi-tenant worker management and dynamic script dispatching.
 - [Queues Web Crawler](https://github.com/cloudflare/queues-web-crawler) - Web crawler example using Queues, Browser Rendering, and Workers KV.
 
 ### Framework Integrations
@@ -110,39 +129,41 @@
 ## Infrastructure & Operations
 
 ### Deployment & Management
-- [Foundations](https://github.com/cloudflare/foundations) - Modular Rust toolkit for building distributed, production-grade systems with logging, tracing, and metrics.
+- ⭐ [Foundations](https://github.com/cloudflare/foundations) - Modular Rust toolkit for building distributed, production-grade systems with logging, tracing, and metrics.
+- ⭐ [Tableflip](https://github.com/cloudflare/tableflip) - Go library for graceful process restarts without dropping connections.
 - [Shellflip](https://github.com/cloudflare/shellflip) - Rust library for graceful process restarts enabling zero-downtime upgrades.
-- [Tableflip](https://github.com/cloudflare/tableflip) - Go library for graceful process restarts without dropping connections.
 
 ### Certificate Management
+- [Gokeyless](https://github.com/cloudflare/gokeyless) - Go implementation of Keyless SSL, enabling TLS without sharing private keys.
 - [Origin CA Issuer](https://github.com/cloudflare/origin-ca-issuer) - Kubernetes cert-manager issuer for Cloudflare Origin CA certificates.
 - [CertMgr](https://github.com/cloudflare/certmgr) - Automated TLS certificate management using CFSSL with service restart capabilities.
-- [Gokeyless](https://github.com/cloudflare/gokeyless) - Go implementation of Keyless SSL, enabling TLS without sharing private keys.
 
 ### Monitoring & Observability
-- [AlertManager2ES](https://github.com/cloudflare/alertmanager2es) - Stores Prometheus AlertManager notifications in Elasticsearch for historical analysis.
 - [UptimeFlare](https://github.com/lyc8503/UptimeFlare) - Free serverless uptime monitoring and status pages powered by Cloudflare Workers and Pages.
 - [Counterscale](https://counterscale.dev/) - Self-hosted, privacy-friendly analytics running entirely on Cloudflare Workers.
+- [Sciuro](https://github.com/cloudflare/sciuro) - Bridge between Alertmanager/Prometheus and Kubernetes that syncs alerts as Node Conditions.
+- [AlertManager2ES](https://github.com/cloudflare/alertmanager2es) - Stores Prometheus AlertManager notifications in Elasticsearch for historical analysis.
+- [PSI Exporter](https://github.com/cloudflare/psi_exporter) - Prometheus exporter for Pressure Stall Information (PSI) from Linux kernel.
 
 ### Database Tools
 - [CF-PgBouncer](https://github.com/cloudflare/cf-pgbouncer) - Lightweight PostgreSQL connection pooler with TLS and PAM support.
 
 ### Specialized Services
-- [Wildebeest](https://github.com/cloudflare/wildebeest) - ActivityPub and Mastodon-compatible server built on Cloudflare's stack.
+- ⭐ [Wildebeest](https://github.com/cloudflare/wildebeest) - ActivityPub and Mastodon-compatible server built on Cloudflare's stack.
 
 ---
 
 ## Networking & Performance
 
 ### Tunneling & Proxies
-- [Cloudflared (Cloudflare Tunnel)](https://github.com/cloudflare/cloudflared) - Securely expose local services to the internet via Cloudflare's network.
-- [Pingora](https://github.com/cloudflare/pingora) - High-performance Rust framework for building HTTP proxies and servers, used internally to replace Nginx.
-- [MMProxy](https://github.com/cloudflare/mmproxy) - Lightweight TCP proxy that preserves client IP addresses when using proxy-protocol.
+- ⭐ [Pingora](https://github.com/cloudflare/pingora) - High-performance Rust framework for building HTTP proxies and servers, used internally to replace Nginx.
+- ⭐ [Cloudflared (Cloudflare Tunnel)](https://github.com/cloudflare/cloudflared) - Securely expose local services to the internet via Cloudflare's network.
 - [Cloudflared-web](https://github.com/WisdomSky/Cloudflared-web) - Community-built web UI for managing Cloudflare Tunnels easily without the CLI.
+- [MMProxy](https://github.com/cloudflare/mmproxy) - Lightweight TCP proxy that preserves client IP addresses when using proxy-protocol.
 
 ### Protocol Implementations
-- [Quiche](https://github.com/cloudflare/quiche) - Rust implementation of the QUIC protocol and HTTP/3 used in Cloudflare's infrastructure.
-- [Boringtun](https://github.com/cloudflare/boringtun) - Userspace WireGuard VPN implementation written in Rust.
+- ⭐ [Quiche](https://github.com/cloudflare/quiche) - Rust implementation of the QUIC protocol and HTTP/3 used in Cloudflare's infrastructure.
+- ⭐ [Boringtun](https://github.com/cloudflare/boringtun) - Userspace WireGuard VPN implementation written in Rust.
 - [ODoH-RS](https://github.com/cloudflare/odoh-rs) - Rust implementation of Oblivious DNS over HTTPS protocol for privacy-preserving DNS.
 
 ### Traffic Analysis & Filtering
@@ -152,6 +173,9 @@
 - [Wirefilter](https://github.com/cloudflare/wirefilter) - Rust engine for Wireshark-like packet filtering expressions.
 - [ebpf_exporter](https://github.com/cloudflare/ebpf_exporter) - Prometheus exporter for custom eBPF metrics.
 - [GoFlow](https://github.com/cloudflare/goflow) - High-scalability sFlow/NetFlow/IPFIX collector (deprecated, use goflow2).
+- [Slirpnetstack](https://github.com/cloudflare/slirpnetstack) - User-mode networking for unprivileged network namespaces using gVisor/netstack.
+- [Tubular](https://github.com/cloudflare/tubular) - Control plane for BPF socket lookup with flexible network socket binding capabilities.
+- [UDPgrm](https://github.com/cloudflare/udpgrm) - UDP Graceful Restart Marshal for zero-downtime stateful UDP service restarts.
 
 ### Performance Testing
 - [Cloudflare Speedtest](https://github.com/cloudflare/speedtest) - Component to perform network speed tests against Cloudflare's edge network.
@@ -161,20 +185,21 @@
 
 ### Data Processing
 - [Go-Stream](https://github.com/cloudflare/go-stream) - Go framework for stream processing analysis with graph-based pipelines.
+- [Sliceslice-rs](https://github.com/cloudflare/sliceslice-rs) - Fast SIMD-accelerated single-pattern substring search implementation in Rust.
 
 ---
 
 ## Security & Privacy
 
 ### PKI & TLS
-- [CFSSL](https://github.com/cloudflare/cfssl) - Cloudflare's PKI/TLS toolkit for certificate management and cryptographic operations.
+- ⭐ [CFSSL](https://github.com/cloudflare/cfssl) - Cloudflare's PKI/TLS toolkit for certificate management and cryptographic operations.
 - [SSL Config](https://github.com/cloudflare/sslconfig) - Cloudflare's battle-tested SSL configuration and OpenSSL patches for secure web servers.
 - [TLS-Tris](https://github.com/cloudflare/tls-tris) - Experimental TLS 1.3 implementation for Go with enhanced protocol features.
 
 ### Cryptography
-- [CIRCL](https://github.com/cloudflare/circl) - Cryptographic library implementing modern and post-quantum algorithms in Go.
+- ⭐ [CIRCL](https://github.com/cloudflare/circl) - Cryptographic library implementing modern and post-quantum algorithms in Go.
+- ⭐ [Red October](https://github.com/cloudflare/redoctober) - Go server implementing two-man rule encryption with multi-party access control.
 - [ZKP-ECDSA](https://github.com/cloudflare/zkp-ecdsa) - Zero-knowledge proofs for ECDSA signatures enabling privacy-preserving verification.
-- [Red October](https://github.com/cloudflare/redoctober) - Go server implementing two-man rule encryption with multi-party access control.
 
 ### Security Tools
 - [Flan Scan](https://github.com/cloudflare/flan) - Lightweight network vulnerability scanner built on top of Nmap.
@@ -185,6 +210,7 @@
 - [Privacy Pass Issuer](https://github.com/cloudflare/privacypass-issuer) - TypeScript implementation of Privacy Pass protocol for Workers with Blind-RSA tokens.
 - [Privacy Pass Extension](https://github.com/cloudflare/pp-browser-extension) - Browser extension implementing Privacy Pass protocol for unlinkable authentication.
 - [UtahFS](https://github.com/cloudflare/utahfs) - FUSE-based encrypted filesystem with ORAM support for privacy-preserving cloud storage.
+- [Privacy Gateway Server Go](https://github.com/cloudflare/privacy-gateway-server-go) - Gateway implementation for Oblivious HTTP (OHTTP) in Go for privacy-preserving HTTP requests.
 
 ### Password Management
 - [Gokey](https://github.com/cloudflare/gokey) - Deterministic password manager in Go that generates site-specific passwords on the fly.
@@ -195,6 +221,7 @@
 
 ### Databases
 - [Prisma ORM](https://www.prisma.io/docs/orm/reference/cloudflare-workers) - Type-safe ORM supporting Cloudflare Workers and D1 for building data-driven apps.
+- [SQLAlchemy ClickHouse](https://github.com/cloudflare/sqlalchemy-clickhouse) - ClickHouse dialect for SQLAlchemy, enabling Python developers to work with ClickHouse databases.
 
 ### Storage Solutions
 - [Serverless Registry](https://github.com/cloudflare/serverless-registry) - Lightweight container registry implementation using Workers and R2 with Docker-compatible workflows.
@@ -203,9 +230,9 @@
 
 ## AI & Machine Learning
 
-- [Cloudflare AI SDKs](https://github.com/cloudflare/ai) - SDKs and examples for integrating Cloudflare's Workers AI with popular tooling like the Vercel AI SDK.
-- [Cloudflare Agents](https://github.com/cloudflare/agents) - Framework for deploying AI-powered agents on Cloudflare Workers and Durable Objects.
-- [MCP Server Cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) - Model Context Protocol servers connecting LLMs to Cloudflare services for natural language interaction.
+- ⭐ [MCP Server Cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) - Model Context Protocol servers connecting LLMs to Cloudflare services for natural language interaction.
+- ⭐ [Cloudflare Agents](https://github.com/cloudflare/agents) - Framework for deploying AI-powered agents on Cloudflare Workers and Durable Objects.
+- ⭐ [Cloudflare AI SDKs](https://github.com/cloudflare/ai) - SDKs and examples for integrating Cloudflare's Workers AI with popular tooling like the Vercel AI SDK.
 - [AI Utils](https://github.com/cloudflare/ai-utils) - Developer toolkit for Workers AI with embedded function calling and OpenAPI integration.
 
 ---
@@ -222,5 +249,5 @@
 - [Workers Web Experiments](https://github.com/cloudflare/workers-web-experiments) - Advanced micro-frontend architecture experiments for serverless applications.
 
 ### Internet Infrastructure
-- [Is BGP Safe Yet?](https://github.com/cloudflare/isbgpsafeyet.com) - Web service tracking BGP security through RPKI deployment status.
+- 🚀 [Is BGP Safe Yet?](https://github.com/cloudflare/isbgpsafeyet.com) - Web service tracking BGP security through RPKI deployment status.
 - [Saffron](https://github.com/cloudflare/saffron) - High-performance cron parser powering Workers Cron Triggers functionality.
