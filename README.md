@@ -60,10 +60,12 @@
 - ⭐ [LOL HTML](https://github.com/cloudflare/lol-html) - Low-latency streaming HTML rewriter in Rust with CSS selector API, powering Workers' HTMLRewriter.
 - ⭐ [Workers OAuth Provider](https://github.com/cloudflare/workers-oauth-provider) - OAuth 2.1 provider for Workers with PKCE support and end-to-end encryption.
 - ⭐ [Chanfana](https://github.com/cloudflare/chanfana) - Cloudflare's tool for generating OpenAPI schemas and validation in Workers apps.
+- ⭐ [Cabidela](https://github.com/cloudflare/cabidela) - Small, fast, eval-less, Cloudflare Workers compatible dynamic JSON Schema validator.
 - ⭐ [Trie-hard](https://github.com/cloudflare/trie-hard) - Novel Trie data structure optimized for high-performance header processing in production.
 - [stpyv8](https://github.com/cloudflare/stpyv8) - Python 3 and JavaScript interoperability using Google's V8 engine, enabling cross-language development.
 - [HTML Rewriter WASM](https://github.com/cloudflare/html-rewriter-wasm) - WebAssembly implementation of HTMLRewriter for parsing and transforming HTML.
 - [Stream React](https://github.com/cloudflare/stream-react) - Official React component for Cloudflare Stream video player integration.
+- [django-cf](https://github.com/G4brym/django-cf) - A set of tools to integrate Django with the Cloudflare Developer platform.
 
 ### Lua Libraries
 - [Lua Resty JSON](https://github.com/cloudflare/lua-resty-json) - High-performance JSON parser with 30-50% faster performance than cjson.
@@ -87,6 +89,7 @@
 ### Infrastructure as Code
 - ⭐ [CF Terraforming](https://github.com/cloudflare/cf-terraforming) - CLI to convert existing Cloudflare resources into Terraform configurations.
 - ⭐ [Terraform Provider Cloudflare](https://github.com/cloudflare/terraform-provider-cloudflare) - Official Terraform provider for managing Cloudflare resources as Infrastructure as Code.
+- [Alchemy](https://github.com/sam-goodwin/alchemy) - TypeScript-native IaC library for deploying Cloudflare resources like Workers, Queues, and R2 Buckets with zero dependencies.
 
 ### API & Documentation
 - [API Schemas](https://github.com/cloudflare/api-schemas) - OpenAPI schemas for the Cloudflare API for building integrations.
@@ -119,6 +122,7 @@
 - [Python Workers Examples](https://github.com/cloudflare/python-workers-examples) - Collection of Python Workers examples including FastAPI and LangChain integration.
 - [Workers for Platforms Example](https://github.com/cloudflare/workers-for-platforms-example) - Reference implementation for multi-tenant worker management and dynamic script dispatching.
 - [Queues Web Crawler](https://github.com/cloudflare/queues-web-crawler) - Web crawler example using Queues, Browser Rendering, and Workers KV.
+- [Authentication Using D1 Example](https://github.com/G4brym/authentication-using-d1-example) - Complete implementation of user registration and login in Cloudflare Workers using D1 database.
 
 ### Framework Integrations
 - [Next on Pages](https://github.com/cloudflare/next-on-pages) - CLI for deploying Next.js apps on Cloudflare Pages with support for SSR and edge functions.
@@ -150,6 +154,7 @@
 
 ### Specialized Services
 - ⭐ [Wildebeest](https://github.com/cloudflare/wildebeest) - ActivityPub and Mastodon-compatible server built on Cloudflare's stack.
+- [Workers Firecrawl](https://github.com/G4brym/workers-firecrawl) - Firecrawl-compatible API implementation in Cloudflare Workers for web scraping and content extraction.
 
 ---
 
@@ -221,10 +226,13 @@
 
 ### Databases
 - ⭐ 🚀 [Prisma ORM](https://www.prisma.io/docs/orm/reference/cloudflare-workers) - Type-safe ORM supporting Cloudflare Workers and D1 for building data-driven apps.
+- ⭐ [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) - Headless TypeScript ORM that runs on Node, Bun, Deno, and lives on the Edge.
 - [SQLAlchemy ClickHouse](https://github.com/cloudflare/sqlalchemy-clickhouse) - ClickHouse dialect for SQLAlchemy, enabling Python developers to work with ClickHouse databases.
+- [Workers QB](https://github.com/G4brym/workers-qb) - Zero dependencies Query Builder for Cloudflare Workers supporting D1, Durable Objects, and Postgres.
 
 ### Storage Solutions
 - [Serverless Registry](https://github.com/cloudflare/serverless-registry) - Lightweight container registry implementation using Workers and R2 with Docker-compatible workflows.
+- [R2 Explorer](https://github.com/G4brym/R2-Explorer) - Google Drive-like interface for managing Cloudflare R2 buckets with file upload, download, and organization.
 
 ---
 
@@ -234,6 +242,7 @@
 - ⭐ [Cloudflare Agents](https://github.com/cloudflare/agents) - Framework for deploying AI-powered agents on Cloudflare Workers and Durable Objects.
 - ⭐ [Cloudflare AI SDKs](https://github.com/cloudflare/ai) - SDKs and examples for integrating Cloudflare's Workers AI with popular tooling like the Vercel AI SDK.
 - [AI Utils](https://github.com/cloudflare/ai-utils) - Developer toolkit for Workers AI with embedded function calling and OpenAPI integration.
+- [Workers Research](https://github.com/G4brym/workers-research) - Serverless, AI-powered deep research agent built with Cloudflare Workers and Google Gemini 2.5.
 
 ---
 
