@@ -46,11 +46,19 @@ calculate_score() {
 get_repo_score() {
   local repo=$1
   
+  # If repo contains '/', assume it's a full owner/repo path
+  # Otherwise, prepend 'cloudflare/'
+  if [[ "$repo" == *"/"* ]]; then
+    repo_path="$repo"
+  else
+    repo_path="cloudflare/$repo"
+  fi
+  
   # Fetch repo data using gh CLI
-  repo_data=$(gh repo view "cloudflare/$repo" --json stargazerCount,pushedAt,isArchived 2>/dev/null)
+  repo_data=$(gh repo view "$repo_path" --json stargazerCount,pushedAt,isArchived 2>/dev/null)
   
   if [ -z "$repo_data" ]; then
-    echo "Error fetching data for $repo" >&2
+    echo "Error fetching data for $repo_path" >&2
     return 1
   fi
   
@@ -86,7 +94,9 @@ rank_repos() {
 # Example usage:
 if [ $# -eq 0 ]; then
   echo "Usage: $0 <repo1> <repo2> ..."
-  echo "Example: $0 workerd pingora cloudflared"
+  echo "Examples:"
+  echo "  $0 workerd pingora cloudflared"
+  echo "  $0 honojs/hono kwhitley/itty-router partykit/partykit"
   exit 1
 fi
 

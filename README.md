@@ -32,23 +32,23 @@
 
 ### Official SDKs
 - ⭐ [cloudflare-go](https://github.com/cloudflare/cloudflare-go) - Official Go library for the Cloudflare API with typed request/response objects and middleware support.
-- [cloudflare-typescript](https://github.com/cloudflare/cloudflare-typescript) - Official TypeScript library providing type-safe access to Cloudflare's REST API.
-- [cloudflare-python](https://github.com/cloudflare/cloudflare-python) - Official Python SDK with sync/async support, Pydantic models, and comprehensive type safety.
+- 🚀 [cloudflare-typescript](https://github.com/cloudflare/cloudflare-typescript) - Official TypeScript library providing type-safe access to Cloudflare's REST API.
+- 🚀 [cloudflare-python](https://github.com/cloudflare/cloudflare-python) - Official Python SDK with sync/async support, Pydantic models, and comprehensive type safety.
 
 ### Runtime & Core Tools
 - ⭐ [Workerd Runtime](https://github.com/cloudflare/workerd) - Cloudflare's open-source runtime for Workers, enabling Workers-compatible environments outside Cloudflare.
 - [Wrangler CLI](https://developers.cloudflare.com/workers/wrangler/) - The official CLI for building, previewing, and deploying Cloudflare Workers.
-- [Miniflare](https://developers.cloudflare.com/workers/wrangler/local-development/#miniflare) - Fully local Cloudflare Workers simulator supporting D1, R2, KV, Durable Objects, and more.
+- 📦 [Miniflare](https://github.com/cloudflare/workers-sdk/tree/main/packages/miniflare) - Fully local Cloudflare Workers simulator supporting D1, R2, KV, Durable Objects, and more. (archived, now part of workers-sdk)
 
 ---
 
 ## Frameworks & Libraries
 
 ### Web Frameworks
-- [Hono](https://hono.dev/) - Ultra-fast web framework for Cloudflare Workers and other runtimes, using a high-performance Trie router.
+- ⭐ [Hono](https://hono.dev/) - Ultra-fast web framework for Cloudflare Workers and other runtimes, using a high-performance Trie router.
 - ⭐ [Workers GraphQL Server](https://github.com/cloudflare/workers-graphql-server) - Apollo GraphQL server optimized for Workers with KV caching and TypeScript support.
-- [itty-router](https://github.com/kwhitley/itty-router) - Lightweight, zero-dependency router optimized for Cloudflare Workers.
-- [PartyKit](https://github.com/partykit/partykit) - Framework for real-time apps and multiplayer experiences on Workers using Durable Objects.
+- ⭐ [itty-router](https://github.com/kwhitley/itty-router) - Lightweight, zero-dependency router optimized for Cloudflare Workers.
+- ⭐ [PartyKit](https://github.com/partykit/partykit) - Framework for real-time apps and multiplayer experiences on Workers using Durable Objects.
 
 ### Language Support
 - ⭐ [Workers RS (Rust)](https://github.com/cloudflare/workers-rs) - Write Cloudflare Workers in pure Rust compiled to WebAssembly for edge deployment.
@@ -139,8 +139,8 @@
 - [CertMgr](https://github.com/cloudflare/certmgr) - Automated TLS certificate management using CFSSL with service restart capabilities.
 
 ### Monitoring & Observability
-- [UptimeFlare](https://github.com/lyc8503/UptimeFlare) - Free serverless uptime monitoring and status pages powered by Cloudflare Workers and Pages.
-- [Counterscale](https://counterscale.dev/) - Self-hosted, privacy-friendly analytics running entirely on Cloudflare Workers.
+- ⭐ 🚀 [UptimeFlare](https://github.com/lyc8503/UptimeFlare) - Free serverless uptime monitoring and status pages powered by Cloudflare Workers and Pages.
+- ⭐ 🚀 [Counterscale](https://github.com/benvinegar/counterscale) - Self-hosted, privacy-friendly analytics running entirely on Cloudflare Workers.
 - [Sciuro](https://github.com/cloudflare/sciuro) - Bridge between Alertmanager/Prometheus and Kubernetes that syncs alerts as Node Conditions.
 - [AlertManager2ES](https://github.com/cloudflare/alertmanager2es) - Stores Prometheus AlertManager notifications in Elasticsearch for historical analysis.
 - [PSI Exporter](https://github.com/cloudflare/psi_exporter) - Prometheus exporter for Pressure Stall Information (PSI) from Linux kernel.
@@ -172,7 +172,7 @@
 - [Rakelimit](https://github.com/cloudflare/rakelimit) - Multi-dimensional fair-share rate limiter in BPF for UDP traffic.
 - [Wirefilter](https://github.com/cloudflare/wirefilter) - Rust engine for Wireshark-like packet filtering expressions.
 - [ebpf_exporter](https://github.com/cloudflare/ebpf_exporter) - Prometheus exporter for custom eBPF metrics.
-- [GoFlow](https://github.com/cloudflare/goflow) - High-scalability sFlow/NetFlow/IPFIX collector (deprecated, use goflow2).
+- ⭐ 📦 [GoFlow](https://github.com/cloudflare/goflow) - High-scalability sFlow/NetFlow/IPFIX collector. (archived - use cloudflare/goflow2 instead)
 - [Slirpnetstack](https://github.com/cloudflare/slirpnetstack) - User-mode networking for unprivileged network namespaces using gVisor/netstack.
 - [Tubular](https://github.com/cloudflare/tubular) - Control plane for BPF socket lookup with flexible network socket binding capabilities.
 - [UDPgrm](https://github.com/cloudflare/udpgrm) - UDP Graceful Restart Marshal for zero-downtime stateful UDP service restarts.
@@ -193,7 +193,7 @@
 
 ### PKI & TLS
 - ⭐ [CFSSL](https://github.com/cloudflare/cfssl) - Cloudflare's PKI/TLS toolkit for certificate management and cryptographic operations.
-- [SSL Config](https://github.com/cloudflare/sslconfig) - Cloudflare's battle-tested SSL configuration and OpenSSL patches for secure web servers.
+- ⭐ [SSL Config](https://github.com/cloudflare/sslconfig) - Cloudflare's battle-tested SSL configuration and OpenSSL patches for secure web servers.
 - [TLS-Tris](https://github.com/cloudflare/tls-tris) - Experimental TLS 1.3 implementation for Go with enhanced protocol features.
 
 ### Cryptography
@@ -213,14 +213,14 @@
 - [Privacy Gateway Server Go](https://github.com/cloudflare/privacy-gateway-server-go) - Gateway implementation for Oblivious HTTP (OHTTP) in Go for privacy-preserving HTTP requests.
 
 ### Password Management
-- [Gokey](https://github.com/cloudflare/gokey) - Deterministic password manager in Go that generates site-specific passwords on the fly.
+- ⭐ [Gokey](https://github.com/cloudflare/gokey) - Deterministic password manager in Go that generates site-specific passwords on the fly.
 
 ---
 
 ## Data & Storage
 
 ### Databases
-- [Prisma ORM](https://www.prisma.io/docs/orm/reference/cloudflare-workers) - Type-safe ORM supporting Cloudflare Workers and D1 for building data-driven apps.
+- ⭐ 🚀 [Prisma ORM](https://www.prisma.io/docs/orm/reference/cloudflare-workers) - Type-safe ORM supporting Cloudflare Workers and D1 for building data-driven apps.
 - [SQLAlchemy ClickHouse](https://github.com/cloudflare/sqlalchemy-clickhouse) - ClickHouse dialect for SQLAlchemy, enabling Python developers to work with ClickHouse databases.
 
 ### Storage Solutions
