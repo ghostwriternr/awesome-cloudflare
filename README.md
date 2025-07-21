@@ -96,6 +96,10 @@
 - [API Schemas](https://github.com/cloudflare/api-schemas) - OpenAPI schemas for the Cloudflare API for building integrations.
 - [JSON Schema Tools](https://github.com/cloudflare/json-schema-tools) - Monorepo of tools for JSON Schema processing and API documentation generation.
 
+### Tools
+- [Magic Linker](https://github.com/mackenly/cloudflare-magic-linker) - Chrome and Firefox extension for copying deeplinks into the Cloudflare Dashboard
+- [Token URL Generator](https://cfdata.lol/tools/api-token-url-generator/) - API token permissions prefill link generator
+
 ---
 
 ## Templates & Examples
@@ -217,6 +221,7 @@
 - [Privacy Pass Extension](https://github.com/cloudflare/pp-browser-extension) - Browser extension implementing Privacy Pass protocol for unlinkable authentication.
 - [UtahFS](https://github.com/cloudflare/utahfs) - FUSE-based encrypted filesystem with ORAM support for privacy-preserving cloud storage.
 - [Privacy Gateway Server Go](https://github.com/cloudflare/privacy-gateway-server-go) - Gateway implementation for Oblivious HTTP (OHTTP) in Go for privacy-preserving HTTP requests.
+- [Zaraz Awesome Directory](https://github.com/mackenly/awesome-zaraz) - An Awesome directory for Cloudflare Zaraz, a privacy and performance-focused Tag Management solution
 
 ### Password Management
 - ⭐ [Gokey](https://github.com/cloudflare/gokey) - Deterministic password manager in Go that generates site-specific passwords on the fly.
