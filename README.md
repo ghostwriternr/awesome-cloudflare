@@ -165,6 +165,7 @@
 - ⭐ [Pingora](https://github.com/cloudflare/pingora) - High-performance Rust framework for building HTTP proxies and servers, used internally to replace Nginx.
 - ⭐ [Cloudflared (Cloudflare Tunnel)](https://github.com/cloudflare/cloudflared) - Securely expose local services to the internet via Cloudflare's network.
 - [Cloudflared-web](https://github.com/WisdomSky/Cloudflared-web) - Community-built web UI for managing Cloudflare Tunnels easily without the CLI.
+- [mycrab-tunnel-skill](https://github.com/isgudtek/mycrab-tunnel-skill) - Claude Code skill for autonomous Cloudflare Tunnel setup via mycrab.space API - enables agents to host public content with free subdomains.
 - [MMProxy](https://github.com/cloudflare/mmproxy) - Lightweight TCP proxy that preserves client IP addresses when using proxy-protocol.
 
 ### Protocol Implementations
