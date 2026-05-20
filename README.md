@@ -244,6 +244,7 @@
 - ⭐ [Cloudflare AI SDKs](https://github.com/cloudflare/ai) - SDKs and examples for integrating Cloudflare's Workers AI with popular tooling like the Vercel AI SDK.
 - [AI Utils](https://github.com/cloudflare/ai-utils) - Developer toolkit for Workers AI with embedded function calling and OpenAPI integration.
 - [Workers Research](https://github.com/G4brym/workers-research) - Serverless, AI-powered deep research agent built with Cloudflare Workers and Google Gemini 2.5.
+- [second-brain-cloudflare](https://github.com/rahilp/second-brain-cloudflare) - Self-hosted persistent AI memory layer for Claude, ChatGPT, and Cursor via MCP, built on Workers, D1, Vectorize, and Workers AI.
 
 ---
 
