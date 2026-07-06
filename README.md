@@ -244,6 +244,7 @@
 - ⭐ [Cloudflare AI SDKs](https://github.com/cloudflare/ai) - SDKs and examples for integrating Cloudflare's Workers AI with popular tooling like the Vercel AI SDK.
 - [AI Utils](https://github.com/cloudflare/ai-utils) - Developer toolkit for Workers AI with embedded function calling and OpenAPI integration.
 - [Workers Research](https://github.com/G4brym/workers-research) - Serverless, AI-powered deep research agent built with Cloudflare Workers and Google Gemini 2.5.
+- [Mosoo](https://github.com/langgenius/mosoo) - Cloudflare-native agent cloud for building, running, and packaging App-local AI apps.
 
 ---
 
