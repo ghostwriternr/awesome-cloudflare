@@ -84,6 +84,7 @@
 - [Puppeteer](https://github.com/cloudflare/puppeteer) - Fork of Puppeteer Core optimized for Cloudflare Browser Workers with minimal size.
 - [Sandbox SDK](https://github.com/cloudflare/sandbox-sdk) - Library for spinning up sandboxed environments in Cloudflare Workers, allowing command execution and file management.
 - [WorkersKV GUI](https://github.com/cloudflare/workerskv.gui) - Cross-platform desktop GUI for exploring Workers KV Namespace data.
+- [Mongrel](https://www.visorcraft.com/mongrel) - Desktop workbench with Cloudflare D1 support (query, schema, and data tools).
 - [Semver Bash](https://github.com/cloudflare/semver_bash) - Bash parser for Semantic Versioning that helps manage project versions in scripts and Makefiles.
 - [WebCM](https://github.com/cloudflare/webcm) - Components Manager for the Web - proxy server for loading and managing web components with server-side execution.
 
