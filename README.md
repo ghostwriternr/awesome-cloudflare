@@ -67,6 +67,7 @@
 - [HTML Rewriter WASM](https://github.com/cloudflare/html-rewriter-wasm) - WebAssembly implementation of HTMLRewriter for parsing and transforming HTML.
 - [Stream React](https://github.com/cloudflare/stream-react) - Official React component for Cloudflare Stream video player integration.
 - [django-cf](https://github.com/G4brym/django-cf) - A set of tools to integrate Django with the Cloudflare Developer platform.
+- [mdgate/converters](https://github.com/mdgate/converters) - Pure TypeScript converters that turn DOCX, PDF, Office, iWork, HWP, and email into Markdown inside Cloudflare Workers. No Python, WASM, or native addons.
 
 ### Lua Libraries
 - [Lua Resty JSON](https://github.com/cloudflare/lua-resty-json) - High-performance JSON parser with 30-50% faster performance than cjson.
