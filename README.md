@@ -7,6 +7,7 @@
 ## Contents
 
 - [Official Resources](#official-resources)
+- [Learning Resources](#learning-resources)
 - [Core Platform & SDKs](#core-platform--sdks)
 - [Frameworks & Libraries](#frameworks--libraries)
 - [Developer Tools](#developer-tools)
@@ -25,6 +26,14 @@
 - [Cloudflare Developer Documentation](https://developers.cloudflare.com/) - Comprehensive docs covering all Cloudflare products and APIs, from Workers and Pages to security and networking.
 - [Cloudflare Developers Blog](https://blog.cloudflare.com/tag/developer/) - Official blog featuring technical deep-dives, announcements, and use cases for Cloudflare's developer tools.
 - [Cloudflare Community Forum](https://community.cloudflare.com/) - Active community for discussing Cloudflare products, getting help, and sharing use cases.
+
+---
+
+## Learning Resources
+
+- [Cloudflare Learning Paths](https://developers.cloudflare.com/learning-paths/) - Official guided paths for learning Cloudflare products and platform concepts.
+- [Cloudflare Developer Labs](https://labs.cloudflare.dev/) - Official hands-on workshops for Workers, Agents SDK, MCP, and Sandbox SDK.
+- [LabEx Cloudflare Learning Path](https://labex.io/learn/cloudflare) - Structured hands-on courses covering Workers, storage, AI, stateful applications, operations, and troubleshooting.
 
 ---
 
