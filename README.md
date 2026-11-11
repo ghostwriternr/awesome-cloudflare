@@ -230,6 +230,7 @@
 - ⭐ [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) - Headless TypeScript ORM that runs on Node, Bun, Deno, and lives on the Edge.
 - [SQLAlchemy ClickHouse](https://github.com/cloudflare/sqlalchemy-clickhouse) - ClickHouse dialect for SQLAlchemy, enabling Python developers to work with ClickHouse databases.
 - [Workers QB](https://github.com/G4brym/workers-qb) - Zero dependencies Query Builder for Cloudflare Workers supporting D1, Durable Objects, and Postgres.
+- [@shtora/d1](https://github.com/orgShtora-1/d1) - Zero-dependency TypeScript client for Cloudflare D1 with prepared queries, typed batch operations, and read-replication sessions.
 
 ### Storage Solutions
 - [Serverless Registry](https://github.com/cloudflare/serverless-registry) - Lightweight container registry implementation using Workers and R2 with Docker-compatible workflows.
