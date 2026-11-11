@@ -84,7 +84,7 @@
 - [Puppeteer](https://github.com/cloudflare/puppeteer) - Fork of Puppeteer Core optimized for Cloudflare Browser Workers with minimal size.
 - [Sandbox SDK](https://github.com/cloudflare/sandbox-sdk) - Library for spinning up sandboxed environments in Cloudflare Workers, allowing command execution and file management.
 - [WorkersKV GUI](https://github.com/cloudflare/workerskv.gui) - Cross-platform desktop GUI for exploring Workers KV Namespace data.
-- [Semver Bash](https://github.com/cloudflare/semver_bash) - Bash parser for Semantic Versioning that helps manage project versions in scripts and Makefiles.
+- [Semver Bash](https://github.com/cloudflare/semver_bash) - Bash parser for Semantic Versioning and Makefiles.
 - [WebCM](https://github.com/cloudflare/webcm) - Components Manager for the Web - proxy server for loading and managing web components with server-side execution.
 
 ### Infrastructure as Code
@@ -111,7 +111,7 @@
 - [WebSocket Template](https://github.com/cloudflare/websocket-template) - Template for implementing WebSocket connections using the WebSocketPair API.
 - [Worker Template PostgreSQL](https://github.com/cloudflare/worker-template-postgres) - Reference demo for connecting Workers to PostgreSQL through Cloudflare Tunnel.
 - [Worker Sites Template](https://github.com/cloudflare/worker-sites-template) - Template for deploying static sites using Cloudflare Workers Sites.
-- [Workers Airtable Form](https://github.com/cloudflare/workers-airtable-form) - Example of handling form data with Workers serverless functions and sending to Airtable.
+- [Workers Airtable Form](https://github.com/cloudflare/workers-airtable-form) - Example of handling form data and sending to Airtable.
 - [Worker Emscripten Template](https://github.com/cloudflare/worker-emscripten-template) - Template for integrating C libraries via WebAssembly using Emscripten.
 - [Worker Template MySQL](https://github.com/cloudflare/worker-template-mysql) - Reference implementation for connecting Workers to MySQL databases.
 
@@ -122,7 +122,7 @@
 - 🚀 [D1 Northwind](https://github.com/cloudflare/d1-northwind) - Full-stack demo app showcasing D1 database with Workers, built with React and TypeScript.
 - [Python Workers Examples](https://github.com/cloudflare/python-workers-examples) - Collection of Python Workers examples including FastAPI and LangChain integration.
 - [Workers for Platforms Example](https://github.com/cloudflare/workers-for-platforms-example) - Reference implementation for multi-tenant worker management and dynamic script dispatching.
-- [Queues Web Crawler](https://github.com/cloudflare/queues-web-crawler) - Web crawler example using Queues, Browser Rendering, and Workers KV.
+- [Queues Web Crawler](https://github.com/cloudflare/queues-web-crawler) - Example of handling form data.
 - [Authentication Using D1 Example](https://github.com/G4brym/authentication-using-d1-example) - Complete implementation of user registration and login in Cloudflare Workers using D1 database.
 
 ### Framework Integrations
@@ -181,7 +181,7 @@
 - ⭐ 📦 [GoFlow](https://github.com/cloudflare/goflow) - High-scalability sFlow/NetFlow/IPFIX collector. (archived - use cloudflare/goflow2 instead)
 - [Slirpnetstack](https://github.com/cloudflare/slirpnetstack) - User-mode networking for unprivileged network namespaces using gVisor/netstack.
 - [Tubular](https://github.com/cloudflare/tubular) - Control plane for BPF socket lookup with flexible network socket binding capabilities.
-- [UDPgrm](https://github.com/cloudflare/udpgrm) - UDP Graceful Restart Marshal for zero-downtime stateful UDP service restarts.
+- [UDPgrm](https://github.com/cloudflare/UDPgrm) - UDP Graceful Restart Marshal for zero-downtime stateful UDP service restarts.
 
 ### Performance Testing
 - [Cloudflare Speedtest](https://github.com/cloudflare/speedtest) - Component to perform network speed tests against Cloudflare's edge network.
@@ -230,7 +230,7 @@
 - ⭐ [Drizzle ORM](https://github.com/drizzle-team/drizzle-orm) - Headless TypeScript ORM that runs on Node, Bun, Deno, and lives on the Edge.
 - [SQLAlchemy ClickHouse](https://github.com/cloudflare/sqlalchemy-clickhouse) - ClickHouse dialect for SQLAlchemy, enabling Python developers to work with ClickHouse databases.
 - [Workers QB](https://github.com/G4brym/workers-qb) - Zero dependencies Query Builder for Cloudflare Workers supporting D1, Durable Objects, and Postgres.
-* [@shtora/d1](https://github.com/orgShtora-1/d1) - Zero-dependency TypeScript client for Cloudflare D1 with prepared queries, typed batch operations, and read-replication sessions.
+- [@shtora/d1](https://github.com/orgShtora-1/d1) - Zero-dependency TypeScript client for Cloudflare D1 with prepared queries, typed batch operations, and read-replication sessions.
 
 ### Storage Solutions
 - [Serverless Registry](https://github.com/cloudflare/serverless-registry) - Lightweight container registry implementation using Workers and R2 with Docker-compatible workflows.
